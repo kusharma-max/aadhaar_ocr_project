@@ -1,0 +1,18 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Frontend dependencies
+ocr-frontend/node_modules/
+
+# Environment variables
+.env
+
+# Generated files
+runs/
+
+# Dataset - do not upload if it contains Aadhaar images
+ocr dataset/
